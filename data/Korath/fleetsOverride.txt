@@ -1,17 +1,17 @@
 #	Add KIV 637 and KIV 711 heavy warships to large Sestor fleets
 
 fleet "Large Kor Sestor"
-	add variant 12
-		"Kar Ik Vot 637"
-		"Tek Far 71 - Lek"
-		"Met Par Tek 53" 3
-		"Far Osk 27" 2
-		"Far Lek 14" 10
 	add variant 16
 		"Kar Ik Vot 637"
 		"Tek Far 78 - Osk (Close Quarters)"
 		"Tek Far 71 - Lek (Close Quarters)"
 		"Far Osk 27" 8
+		"Far Lek 14" 10
+	add variant 12
+		"Kar Ik Vot 637"
+		"Tek Far 71 - Lek"
+		"Met Par Tek 53" 3
+		"Far Osk 27" 2
 		"Far Lek 14" 10
 	add variant 8
 		"Kar Ik Vot 711"
@@ -29,9 +29,94 @@ fleet "Large Kor Sestor"
 		"Far Osk 27" 14
 		"Far Lek 14" 18
 
+#	Add Kar'hane to Korath fleets that hold olofez
+
+fleet "Korath Ember Waste Large Raid"
+	add variant 15
+		"Palavret (Ember)"
+		"Kar'hane" 2
+	add variant 3
+		"Palavret (Ember Blaze)"
+		"Kar'hane" 2
+	add variant 3
+		"Palavret (Ember Shunt)"
+		"Kar'hane" 2
+	add variant 2
+		"Rano'erek"
+		"Kar'hane" 4
+	add variant 2
+		"Rano'erek (Shunt)"
+		"Kar'hane" 4
+	add variant 1
+		"Ra'gru Ik 618 (Ember)"
+		"Rano'erek (Heaver)"
+		"Palavret (Ember)" 3
+		"Kar'hane" 10
+	add variant 1
+		"Ra'at Ik 621"
+		"Rano'erek (Heaver)"
+		"Palavret (Ember)" 3
+		"Kar'hane" 19
+	add variant 1
+		"Lor'kas Ik 577 (Ember)"
+		"Palavret (Ember Shunt)"
+		"Palavret (Ember Blaze)" 2
+		"Kar'hane" 9
+fleet "Korath Ember Waste Raid"
+	add variant 15
+		"Palavret (Ember)"
+		"Kar'hane" 2
+	add variant 3
+		"Palavret (Ember Blaze)"
+		"Kar'hane" 2
+	add variant 3
+		"Palavret (Ember Shunt)"
+		"Kar'hane" 2
+	add variant 2
+		"Rano'erek"
+		"Kar'hane" 4
+	add variant 2
+		"Rano'erek (Shunt)"
+		"Kar'hane" 4
+fleet "Korath Large Raid"
+	add variant 5
+		"Palavret" 2
+		"Kar'hane" 4
+	add variant 5
+		"Palavret (Blaze)" 2
+		"Kar'hane" 4
+	add variant 2
+		"Rano'erek"
+		"Palavret (Blaze)"
+		"Kar'hane" 6
+fleet "Korath Raid"
+	add variant 4 
+		"Palavret"
+		"Kar'hane" 2
+	add variant 1
+		"Palavret (Blaze)"
+		"Kar'hane" 2
+
 #	Add Model 8 Minelayer and disruptor variants to Mereti fleets
 
 fleet "Large Kor Mereti"
+	add variant 15
+		"Model 8 (Minelayer)" 2
+		"Model 8 (Disruptor)" 3
+	add variant 6
+		"Model 64" 2
+		"Model 8 (Disruptor)" 5
+	add variant 5
+		"Model 128" 2
+		"Model 8 (Disruptor)" 2
+		"Model 8 (Minelayer)" 3
+	add variant 3
+		"Model 256"
+		"Model 8 (Minelayer)" 2
+	add variant 3
+		"Model 128"
+		"Model 32" 3
+		"Model 8 (Disruptor)" 3
 	add variant 2
 		"Model 128"
 		"Model 256"
@@ -40,38 +125,21 @@ fleet "Large Kor Mereti"
 		"Model 8 (Minelayer)" 2
 		"Model 64" 3
 		"Model 16" 4
-	add variant 3
-		"Model 128"
-		"Model 32" 3
-		"Model 8 (Disruptor)" 3
-	add variant 3
-		"Model 256"
-		"Model 8 (Minelayer)" 2
-	add variant 5
-		"Model 128" 2
-		"Model 8 (Disruptor)" 2
-		"Model 8 (Minelayer)" 3
-	add variant 6
-		"Model 64" 2
-		"Model 8 (Disruptor)" 5
-	add variant 15
-		"Model 8 (Minelayer)" 2
-		"Model 8 (Disruptor)" 3
 fleet "Small Kor Mereti"
-	add variant 4
-		"Model 128"
-		"Model 32" 2
-		"Model 8 (Disruptor)" 5
-	add variant 4
-		"Model 256"
-		"Model 8 (Minelayer)" 3
+	add variant 24
+		"Model 8 (Disruptor)"
+		"Model 8 (Minelayer)" 4
+	add variant 8
+		"Model 64" 3
+		"Model 8 (Disruptor)" 2
 	add variant 7
 		"Model 128"
 		"Model 8 (Disruptor)" 2
 		"Model 8 (Minelayer)" 3
-	add variant 8
-		"Model 64" 3
-		"Model 8 (Disruptor)" 2
-	add variant 24
-		"Model 8 (Disruptor)"
-		"Model 8 (Minelayer)" 4
+	add variant 4
+		"Model 256"
+		"Model 8 (Minelayer)" 3
+	add variant 4
+		"Model 128"
+		"Model 32" 2
+		"Model 8 (Disruptor)" 5
