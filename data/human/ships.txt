@@ -1,0 +1,391 @@
+#	Transport
+
+ship "Flivver" "HuFl- Flivver (Racing)"
+	sprite "ship/Flivver (Racing)"
+	thumbnail "thumbnail/Flivver (Racing)"
+	attributes
+		category "Transport"
+		cost 110000
+		shields 900
+		hull 250
+		"required crew" 1
+		bunks 2
+		mass 45
+		drag 1.1
+		"heat dissipation" .8
+		"fuel capacity" 600
+		"cargo space" 15
+		"outfit space" 130
+		"engine capacity" 55
+		weapon
+			"blast radius" 16
+			"shield damage" 160
+			"hull damage" 80
+			"hit force" 240
+	outfits
+		"A125 Atomic Steering"
+		"A250 Atomic Thruster"
+		"LP072a Battery Pack"
+		"nGVF-BB Fuel Cell"
+		"Scram Drive"
+	engine -12 20 .8
+	engine 12 20 .8
+	explode "small explosion" 15
+	explode "tiny explosion" 10
+
+#	Heavy Freighter
+
+ship "Colossus" "HuFl- Colossus"
+	sprite "ship/Colossus"
+	thumbnail "thumbnail/Colossus"
+	attributes
+		category "Heavy Freighter"
+		"cost" 15900000
+		"shields" 9400
+		"hull" 8100
+		"required crew" 17
+		"bunks" 42
+		"mass" 800
+		"drag" 12.1
+		"heat dissipation" .3
+		"fuel capacity" 600
+		"cargo space" 930
+		"outfit space" 940
+		"weapon capacity" 380
+		"engine capacity" 110
+		weapon
+			"blast radius" 160
+			"shield damage" 1500
+			"hull damage" 750
+			"hit force" 2300
+	outfits
+		"A370 Atomic Thruster"
+		"Anti-Missile Turret" 4
+		"Breeder Reactor"
+		"Cargo Expansion" 3
+		"Catalytic Ramscoop"
+		"D41-HY Shield Generator"
+		"D94-YV Shield Generator"
+		"Fuel Pod" 4
+		"Heavy Anti-Missile Turret" 2
+		"Heavy Laser Turret" 2
+		"Impala Plasma Steering"
+		"Large Radar Jammer" 2
+		"Laser Rifle" 12
+		"LP288a Battery Pack"
+		"Proton Turret" 4
+		"Scram Drive"
+		"Sidewinder Missile Launcher" 2
+		"Sidewinder Missile" 90
+		"Water Coolant System"
+		"X1200 Ion Steering"
+		Ramscoop 2
+	engine -33.5 223.5 .6
+	engine -31.5 223.5 .8
+	engine 31.5 223.5 .8
+	engine 33.5 223.5 .6
+	engine -55.5 229 .6
+	engine 55.5 229 .6
+	gun -21.5 -160.5
+	gun 21.5 -160.5
+	turret -31 -126 "Proton Turret"
+	turret 31 -126 "Proton Turret"
+	turret -46.5 -45 "Anti-Missile Turret"
+	turret 46.5 -45 "Anti-Missile Turret"
+	turret -46.5 35.5 "Heavy Laser Turret"
+	turret 46.5 35.5 "Heavy Laser Turret"
+	turret -46.5 116.5 "Proton Turret"
+	turret 46.5 116.5 "Proton Turret"
+	turret -22 -13 "Heavy Anti-Missile Turret"
+	turret 22 -13 "Heavy Anti-Missile Turret"
+	turret -22 68
+	turret 22 68
+	turret -22 149 "Anti-Missile Turret"
+	turret 22 149 "Anti-Missile Turret"
+	leak "leak" 30 50
+	leak "flame" 30 80
+	leak "big leak" 50 30
+	explode "small explosion" 20
+	explode "medium explosion" 30
+	explode "large explosion" 45
+	explode "huge explosion" 25
+	"final explode" "final explosion large"
+	description `It wasn't long after the release of the Behemoth that a successor was released, though not by Betelgeuse. It was only after some time that, in a high profile claim dispute the design of the Goliath was turned over to Betelgeuse Shipyards.`
+
+#	Interceptor
+
+ship "Model 8" "KoFl- Model 8 (disruptor)"
+	outfits
+		"Hyperdrive"
+		"Plasma Core"
+		"Reasoning Node"
+		"Shield Disruptor Gun" 2
+		"Small Heat Shunt"
+		"Steering (Lunar Class)"
+		"Systems Core (Small)"
+		"Thruster (Comet Class)"
+	gun 9 -36 "Korath Disruptor Gun"
+	gun -11 -15 "Korath Disruptor Gun"
+ship "Model 8" "KoFl- Model 8 (minelayer)"
+	outfits
+		"Generator (Furnace Class)"
+		"Hyperdrive"
+		"Korath Mine Rack" 3
+		"Korath Mine" 44
+		"Korath Minelayer"
+		"Reasoning Node"
+		"Steering (Lunar Class)"
+		"Systems Core (Small)"
+		"Thruster (Comet Class)"
+	gun 9 -36 "Korath Minelayer"
+ship "Quarg Oriole" "QuFl- Quarg Oriole"
+	sprite "ship/QuFl Quarg Oriole"
+	thumbnail "thumbnail/QuFl Quarg Oriole"
+	attributes
+		category "Interceptor"
+		cost 33960000
+		shields 110000
+		hull 40000
+		"required crew" 35
+		bunks 70
+		mass 260
+		drag 10.8
+		"heat dissipation" .6
+		"fuel capacity" 1200
+		"cargo space" 60
+		"outfit space" 540
+		"weapon capacity" 160
+		"engine capacity" 120
+		"hull repair rate" 3
+		"hull energy" 3
+		ramscoop 10
+		"atmosphere scan" 100
+		"outfit scan power" 81
+		weapon
+			"blast radius" 250
+			"shield damage" 1000
+			"hull damage" 500
+			"hit force" 1500
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 50
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery"
+		"Quantum Shield Generator"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance"
+	engine -14 47
+	engine 14 47
+	turret 0 -1 "Quarg Skylance"
+	turret -18 37.5 "Quarg Anti-Missile"
+	turret 18 37.5 "Quarg Anti-Missile"
+	explode "tiny explosion" 12
+	explode "small explosion" 14
+	explode "medium explosion" 24
+	explode "large explosion" 24
+	explode "huge explosion" 18
+	"final explode" "final explosion medium"
+	description `This scoutcraft is often deployed to patrol for any threats that may arise to threaten the Quarg or the intended order for any species under Quarg supervision.`
+	description `	On occasion being utilized in place of civilian craft for transportation, the Oriole offers great versatility in many areas for such a small vessel.`
+
+#	Medium Warship
+
+ship "Quarg Hydra" "QuFl- Quarg Hydra"
+	sprite "ship/QuFl Quarg Hydra"
+	thumbnail "thumbnail/QuFl Quarg Hydra"
+	attributes
+		category "Medium Warship"
+		"cost" 82441000
+		"shields" 220000
+		"hull" 90000
+		"required crew" 190
+		"bunks" 235
+		"mass" 610
+		"drag" 9.2
+		"heat dissipation" .4
+		"fuel capacity" 1000
+		"cargo space" 40
+		"outfit space" 820
+		"weapon capacity" 360
+		"engine capacity" 130
+		"hull repair rate" 8
+		"hull energy" 8
+		"ramscoop" 10
+		weapon
+			"blast radius" 300
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 2000
+	outfits
+		"Antimatter Core"
+		"Intrusion Countermeasures" 170
+		"Jump Drive"
+		"Medium Graviton Steering"
+		"Medium Graviton Thruster"
+		"Nanotech Battery" 2
+		"Quantum Shield Generator"
+		"Quarg Anti-Missile" 2
+		"Quarg Skylance" 4
+	engine -36.5 94
+	engine 36.5 94
+	engine 0 95
+	engine -28 101.5
+	engine 28 101.5
+	gun -75 45.5
+	gun 75 45.5
+	turret 0 -35.5 "Quarg Skylance"
+	turret 0 -17.5 "Quarg Skylance"
+	turret -27 64.5 "Quarg Anti-Missile"
+	turret 27 64.5 "Quarg Anti-Missile"
+	turret -66.5 73 "Quarg Skylance"
+	turret 66.5 73 "Quarg Skylance"
+	explode "tiny explosion" 12
+	explode "small explosion" 14
+	explode "medium explosion" 24
+	explode "large explosion" 24
+	explode "huge explosion" 18
+	"final explode" "final explosion medium"
+	description `Once, when for the first time their Wardragons proved insufficient for dealing with threats, the Quarg decided to improve upon the design of their standard use-case warship. Proving to be a worthwhile successor and step-up from the classic Wardragon, only dire circumstances warrant the deployment of this design.`
+	description `	Any forces capable of braving a confrontation with the Quarg should surely reconsider upon seeing any variation in the standard fleet composition of the Quarg.`
+
+#	Heavy Warship
+
+ship "Kar Ik Vot 637" "KoFl- Kar Ik Vot 637"
+	sprite "ship/Kar Ik Vot 637"
+	thumbnail "thumbnail/Kar Ik Vot 637"
+	attributes
+		category "Heavy Warship"
+		cost 44130000
+		shields 82900
+		hull 67400
+		automaton 1
+		mass 1850
+		drag 24.6
+		"heat dissipation" .45
+		"fuel capacity" 600
+		"cargo space" 63
+		"outfit space" 1239
+		"weapon capacity" 527
+		"engine capacity" 211
+		"self destruct" .45
+		ramscoop 3
+		weapon
+			"blast radius" 550
+			"shield damage" 6800
+			"hull damage" 3600
+			"hit force" 9800
+	outfits
+		"Control Transceiver"
+		"Double Plasma Core"
+		"Hyperdrive"
+		"Korath Detainer" 2
+		"Korath Piercer Launcher" 2
+		"Korath Piercer" 62
+		"Korath Repeater Turret" 8
+		"Large Heat Shunt" 5
+		"Small Heat Shunt"
+		"Systems Core (Large)"
+		"Systems Core (Small)"
+		"Triple Plasma Core"
+		"Vector Engine (Reality Class)"
+	engine -78 221
+	engine 78 221
+	engine 0 335
+	engine -31 349 .6
+	engine 31 349 .6
+	gun -11 -323 "Korath Detainer"
+	gun 11 -323 "Korath Detainer"
+	gun -22 -272 "Korath Piercer Launcher"
+	gun 22 -272 "Korath Piercer Launcher"
+	turret -50 -261 "Korath Repeater Turret"
+	turret 50 -261 "Korath Repeater Turret"
+	turret -52 -238 "Korath Repeater Turret"
+	turret 52 -238 "Korath Repeater Turret"
+	turret -54 -210 "Korath Repeater Turret"
+	turret 54 -210 "Korath Repeater Turret"
+	turret -57 -181 "Korath Repeater Turret"
+	turret 57 -181 "Korath Repeater Turret"
+	drone 52 -37 under
+	drone 46 0 over
+	drone -52 296 under back
+	fighter -44 -17 over
+	fighter 52 258 over back
+	explode "huge explosion" 20
+	explode "large explosion" 60
+	explode "medium explosion" 90
+	explode "small explosion" 70
+	explode "tiny explosion" 140
+	"final explode" "final explosion large"
+ship "Kar Ik Vot 711" "KoFl- Kar Ik Vot 711"
+	sprite "ship/Kar Ik Vot 711"
+	thumbnail "thumbnail/Kar Ik Vot 711"
+	attributes
+		category "Heavy Warship"
+		cost 47550000
+		shields 88400
+		hull 82100
+		automaton 1
+		mass 2410
+		drag 30.6
+		"heat dissipation" .4
+		"fuel capacity" 700
+		"cargo space" 56
+		"outfit space" 1461
+		"weapon capacity" 527
+		"engine capacity" 261
+		"self destruct" .55
+		ramscoop 3
+		weapon
+			"blast radius" 570
+			"shield damage" 6900
+			"hull damage" 4100
+			"hit force" 9500
+	outfits
+		"Control Transceiver" 2
+		"Korath Banisher" 2
+		"Korath Piercer Launcher" 2
+		"Korath Piercer Rack" 3
+		"Korath Piercer" 110
+		"Korath Repeater Turret" 8
+		"Korath Warder" 4
+		"Large Heat Shunt" 7
+		"Outfits Expansion"
+		"Small Heat Shunt" 2
+		"Systems Core (Large)"
+		"Systems Core (Medium)"
+		"Thruster (Lunar Class)"
+		"Triple Plasma Core" 2
+		"Vector Engine (Reality Class)"
+		Hyperdrive
+	engine -57.5 297
+		over
+	engine 57.5 297
+		over
+	engine -31.5 365.5 1.2
+	engine 31.5 365.5 1.2
+	turret -50.5 -259.5 "Korath Repeater Turret"
+	turret 50.5 -259.5 "Korath Repeater Turret"
+	turret -52 -235.5 "Korath Repeater Turret"
+	turret 52 -235.5 "Korath Repeater Turret"
+	turret -54.5 -207.5 "Korath Repeater Turret"
+	turret 54.5 -207.5 "Korath Repeater Turret"
+	turret -55 -178.5 "Korath Banisher"
+	turret 55 -178.5 "Korath Banisher"
+	turret -53 -152.5
+	turret 53 -152.5
+	turret -50.5 -128.5 "Korath Warder"
+	turret 50.5 -128.5 "Korath Warder"
+	turret -123.5 201 "Korath Repeater Turret"
+	turret -102.5 201 "Korath Warder"
+	turret 102.5 201 "Korath Warder"
+	turret 123.5 201 "Korath Repeater Turret"
+	gun -11.5 -319.5 "Korath Piercer Launcher"
+	gun 11.5 -319.5 "Korath Piercer Launcher"
+	explode "huge explosion" 20
+	explode "large explosion" 60
+	explode "medium explosion" 90
+	explode "small explosion" 70
+	explode "tiny explosion" 140
+	"final explode" "final explosion large"
