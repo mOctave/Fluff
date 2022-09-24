@@ -1,8 +1,8 @@
 #	Transport
 
-ship "Flivver" "HuFl- Flivver (Racing)"
-	sprite "ship/Flivver (Racing)"
-	thumbnail "thumbnail/Flivver (Racing)"
+ship "Flivver" "Flivver (Racing)"
+	sprite "ship/flivverRacing"
+	thumbnail "thumbnail/flivverRacing"
 	attributes
 		category "Transport"
 		cost 110000
@@ -35,9 +35,9 @@ ship "Flivver" "HuFl- Flivver (Racing)"
 
 #	Heavy Freighter
 
-ship "Colossus" "HuFl- Colossus"
-	sprite "ship/Colossus"
-	thumbnail "thumbnail/Colossus"
+ship "Colossus"
+	sprite "ship/colossus"
+	thumbnail "thumbnail/colossus"
 	attributes
 		category "Heavy Freighter"
 		"cost" 15900000
@@ -114,7 +114,7 @@ ship "Colossus" "HuFl- Colossus"
 
 #	Interceptor
 
-ship "Model 8" "KoFl- Model 8 (disruptor)"
+ship "Model 8" "Model 8 (disruptor)"
 	outfits
 		"Hyperdrive"
 		"Plasma Core"
@@ -126,7 +126,7 @@ ship "Model 8" "KoFl- Model 8 (disruptor)"
 		"Thruster (Comet Class)"
 	gun 9 -36 "Korath Disruptor Gun"
 	gun -11 -15 "Korath Disruptor Gun"
-ship "Model 8" "KoFl- Model 8 (minelayer)"
+ship "Model 8" "Model 8 (minelayer)"
 	outfits
 		"Generator (Furnace Class)"
 		"Hyperdrive"
@@ -138,9 +138,9 @@ ship "Model 8" "KoFl- Model 8 (minelayer)"
 		"Systems Core (Small)"
 		"Thruster (Comet Class)"
 	gun 9 -36 "Korath Minelayer"
-ship "Quarg Oriole" "QuFl- Quarg Oriole"
-	sprite "ship/QuFl Quarg Oriole"
-	thumbnail "thumbnail/QuFl Quarg Oriole"
+ship "Quarg Oriole"
+	sprite "ship/quargOriole"
+	thumbnail "thumbnail/quargOriole"
 	attributes
 		category "Interceptor"
 		cost 33960000
@@ -192,9 +192,9 @@ ship "Quarg Oriole" "QuFl- Quarg Oriole"
 
 #	Medium Warship
 
-ship "Quarg Hydra" "QuFl- Quarg Hydra"
-	sprite "ship/QuFl Quarg Hydra"
-	thumbnail "thumbnail/QuFl Quarg Hydra"
+ship "Quarg Hydra"
+	sprite "ship/quargHydra"
+	thumbnail "thumbnail/quargHydra"
 	attributes
 		category "Medium Warship"
 		"cost" 82441000
@@ -252,9 +252,9 @@ ship "Quarg Hydra" "QuFl- Quarg Hydra"
 
 #	Heavy Warship
 
-ship "Kar Ik Vot 637" "KoFl- Kar Ik Vot 637"
-	sprite "ship/Kar Ik Vot 637"
-	thumbnail "thumbnail/Kar Ik Vot 637"
+ship "Kar Ik Vot 637"
+	sprite "ship/karIkVot637"
+	thumbnail "thumbnail/karIkVot637"
 	attributes
 		category "Heavy Warship"
 		cost 44130000
@@ -318,9 +318,9 @@ ship "Kar Ik Vot 637" "KoFl- Kar Ik Vot 637"
 	explode "small explosion" 70
 	explode "tiny explosion" 140
 	"final explode" "final explosion large"
-ship "Kar Ik Vot 711" "KoFl- Kar Ik Vot 711"
-	sprite "ship/Kar Ik Vot 711"
-	thumbnail "thumbnail/Kar Ik Vot 711"
+ship "Kar Ik Vot 711"
+	sprite "ship/karIkVot711"
+	thumbnail "thumbnail/karIkVot711"
 	attributes
 		category "Heavy Warship"
 		cost 47550000

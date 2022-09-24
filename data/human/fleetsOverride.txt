@@ -2,45 +2,45 @@
 
 fleet "Large Quarg"
 	variant 2
-		"QuFl- Quarg Hydra"
+		"Quarg Hydra"
 	variant 3
-		"QuFl- Quarg Hydra"
+		"Quarg Hydra"
 		"Quarg Wardragon"
 	variant 5
-		"QuFl- Quarg Hydra" 2
+		"Quarg Hydra" 2
 
 #	Add KIV 637 and KIV 711 heavy warships to large Sestor fleets
 
 fleet "Large Kor Sestor"
 	add variant 12
-		"KoFl- Kar Ik Vot 637"
+		"Kar Ik Vot 637"
 		"Tek Far 71 - Lek"
 		"Met Par Tek 53" 3
 		"Far Osk 27" 2
 		"Far Lek 14" 10
 	add variant 16
-		"KoFl- Kar Ik Vot 637"
+		"Kar Ik Vot 637"
 		"Tek Far 78 - Osk (Close Quarters)"
 		"Tek Far 71 - Lek (Close Quarters)"
 		"Far Osk 27" 8
 		"Far Lek 14" 10
 	add variant 8
-		"KoFl- Kar Ik Vot 711"
+		"Kar Ik Vot 711"
 		"Kar Ik Vot 349"
 	add variant 5
-		"KoFl- Kar Ik Vot 711"
+		"Kar Ik Vot 711"
 		"Tek Far 78 - Osk (Close Quarters)"
 		"Tek Far 71 - Lek (Close Quarters)"
 		"Met Par Tek 53" 3
 		"Far Osk 27" 8
 		"Far Lek 14" 10
 	add variant 4
-		"KoFl- Kar Ik Vot 711"
+		"Kar Ik Vot 711"
 		"Tek Far 109" 2
 		"Far Osk 27" 14
 		"Far Lek 14" 18
 
-#	Add Model 8 minelayer and disruptor variants to Mereti fleets
+#	Add Model 8 Minelayer and disruptor variants to Mereti fleets
 
 fleet "Large Kor Mereti"
 	add variant 2
@@ -48,52 +48,52 @@ fleet "Large Kor Mereti"
 		"Model 256"
 		"Model 512"
 		"Model 32" 2
-		"KoFl- Model 8 (minelayer)" 2
+		"Model 8 (Minelayer)" 2
 		"Model 64" 3
 		"Model 16" 4
 	add variant 3
 		"Model 128"
 		"Model 32" 3
-		"KoFl- Model 8 (disruptor)" 3
+		"Model 8 (Disruptor)" 3
 	add variant 3
 		"Model 256"
-		"KoFl- Model 8 (minelayer)" 2
+		"Model 8 (Minelayer)" 2
 	add variant 5
 		"Model 128" 2
-		"KoFl- Model 8 (disruptor)" 2
-		"KoFl- Model 8 (minelayer)" 3
+		"Model 8 (Disruptor)" 2
+		"Model 8 (Minelayer)" 3
 	add variant 6
 		"Model 64" 2
-		"KoFl- Model 8 (disruptor)" 5
+		"Model 8 (Disruptor)" 5
 	add variant 15
-		"KoFl- Model 8 (minelayer)" 2
-		"KoFl- Model 8 (disruptor)" 3
+		"Model 8 (Minelayer)" 2
+		"Model 8 (Disruptor)" 3
 fleet "Small Kor Mereti"
 	add variant 4
 		"Model 128"
 		"Model 32" 2
-		"KoFl- Model 8 (disruptor)" 5
+		"Model 8 (Disruptor)" 5
 	add variant 4
 		"Model 256"
-		"KoFl- Model 8 (minelayer)" 3
+		"Model 8 (Minelayer)" 3
 	add variant 7
 		"Model 128"
-		"KoFl- Model 8 (disruptor)" 2
-		"KoFl- Model 8 (minelayer)" 3
+		"Model 8 (Disruptor)" 2
+		"Model 8 (Minelayer)" 3
 	add variant 8
 		"Model 64" 3
-		"KoFl- Model 8 (disruptor)" 2
+		"Model 8 (Disruptor)" 2
 	add variant 24
-		"KoFl- Model 8 (disruptor)"
-		"KoFl- Model 8 (minelayer)" 4
+		"Model 8 (Disruptor)"
+		"Model 8 (Minelayer)" 4
 
 #	Add Oriole to regular Quarg fleets
 
 fleet "Quarg"
 	variant 2
-		"QuFl- Quarg Oriole"
+		"Quarg Oriole"
 	variant 3
 		"Quarg Wardragon"
-		"QuFl- Quarg Oriole"
+		"Quarg Oriole"
 	variant 5
-		"QuFl- Quarg Oriole" 2
+		"Quarg Oriole" 2
