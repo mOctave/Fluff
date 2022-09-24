@@ -180,6 +180,15 @@ ship "Frigate"
 		"X3200 Ion Steering"
 		"X3700 Ion Thruster"
 
+#	Re-categorize vanilla Quarg ships to reflect their roles
+
+ship "Quarg Skylark"
+	attributes
+		category "Utility"
+ship "Quarg Wardragon"
+	attributes
+		category "Light Warship"
+
 #	Quarter Sestor self destruct changes
 
 ship "Far Lek 14"
@@ -224,12 +233,3 @@ ship "Tek Far 109"
 ship "Kar Ik Vot 349"
 	attributes
 		"self destruct" .4
-
-#	Re-categorize vanilla Quarg ships to reflect their roles
-
-ship "Quarg Skylark"
-	attributes
-		category "Utility"
-ship "Quarg Wardragon"
-	attributes
-		category "Light Warship"

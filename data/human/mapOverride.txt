@@ -1,3 +1,18 @@
+#	Add defense fleets to ringworlds for suicidal players
+
+planet "Alta Hai"
+	tribute 22000
+		threshold 8000
+		fleet "quarg protectionist" 12
+planet "Kuwaru Efreti"
+	tribute 17000
+		threshold 8000
+		fleet "quarg protectionist" 10
+planet Lagrange
+	tribute 18000
+		threshold 8000
+		fleet "quarg protectionist" 10
+
 #	Add Quarg protector fleets to many systems surrounding the Kor Efreti
 
 system Chikatip
@@ -38,18 +53,3 @@ system Solifar
 	add fleet "quarg protectionist" 20000
 system Sumprast
 	add fleet "quarg protectionist" 12500
-
-#	Add defense fleets to ringworlds for suicidal players
-
-planet "Alta Hai"
-	tribute 22000
-		threshold 8000
-		fleet "quarg protectionist" 12
-planet "Kuwaru Efreti"
-	tribute 17000
-		threshold 8000
-		fleet "quarg protectionist" 10
-planet Lagrange
-	tribute 18000
-		threshold 8000
-		fleet "quarg protectionist" 10

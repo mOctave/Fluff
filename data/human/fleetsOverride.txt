@@ -1,3 +1,45 @@
+#	Add Hydra to large Quarg fleets
+
+fleet "Large Quarg"
+	variant 2
+		"QuFl- Quarg Hydra"
+	variant 3
+		"QuFl- Quarg Hydra"
+		"Quarg Wardragon"
+	variant 5
+		"QuFl- Quarg Hydra" 2
+
+#	Add KIV 637 and KIV 711 heavy warships to large Sestor fleets
+
+fleet "Large Kor Sestor"
+	add variant 12
+		"KoFl- Kar Ik Vot 637"
+		"Tek Far 71 - Lek"
+		"Met Par Tek 53" 3
+		"Far Osk 27" 2
+		"Far Lek 14" 10
+	add variant 16
+		"KoFl- Kar Ik Vot 637"
+		"Tek Far 78 - Osk (Close Quarters)"
+		"Tek Far 71 - Lek (Close Quarters)"
+		"Far Osk 27" 8
+		"Far Lek 14" 10
+	add variant 8
+		"KoFl- Kar Ik Vot 711"
+		"Kar Ik Vot 349"
+	add variant 5
+		"KoFl- Kar Ik Vot 711"
+		"Tek Far 78 - Osk (Close Quarters)"
+		"Tek Far 71 - Lek (Close Quarters)"
+		"Met Par Tek 53" 3
+		"Far Osk 27" 8
+		"Far Lek 14" 10
+	add variant 4
+		"KoFl- Kar Ik Vot 711"
+		"Tek Far 109" 2
+		"Far Osk 27" 14
+		"Far Lek 14" 18
+
 #	Add Model 8 minelayer and disruptor variants to Mereti fleets
 
 fleet "Large Kor Mereti"
@@ -44,48 +86,6 @@ fleet "Small Kor Mereti"
 	add variant 24
 		"KoFl- Model 8 (disruptor)"
 		"KoFl- Model 8 (minelayer)" 4
-
-#	Add KIV 637 and KIV 711 heavy warships to large Sestor fleets
-
-fleet "Large Kor Sestor"
-	add variant 12
-		"KoFl- Kar Ik Vot 637"
-		"Tek Far 71 - Lek"
-		"Met Par Tek 53" 3
-		"Far Osk 27" 2
-		"Far Lek 14" 10
-	add variant 16
-		"KoFl- Kar Ik Vot 637"
-		"Tek Far 78 - Osk (Close Quarters)"
-		"Tek Far 71 - Lek (Close Quarters)"
-		"Far Osk 27" 8
-		"Far Lek 14" 10
-	add variant 8
-		"KoFl- Kar Ik Vot 711"
-		"Kar Ik Vot 349"
-	add variant 5
-		"KoFl- Kar Ik Vot 711"
-		"Tek Far 78 - Osk (Close Quarters)"
-		"Tek Far 71 - Lek (Close Quarters)"
-		"Met Par Tek 53" 3
-		"Far Osk 27" 8
-		"Far Lek 14" 10
-	add variant 4
-		"KoFl- Kar Ik Vot 711"
-		"Tek Far 109" 2
-		"Far Osk 27" 14
-		"Far Lek 14" 18
-
-#	Add Hydra to large Quarg fleets
-
-fleet "Large Quarg"
-	variant 2
-		"QuFl- Quarg Hydra"
-	variant 3
-		"QuFl- Quarg Hydra"
-		"Quarg Wardragon"
-	variant 5
-		"QuFl- Quarg Hydra" 2
 
 #	Add Oriole to regular Quarg fleets
 
