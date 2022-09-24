@@ -1,0 +1,7 @@
+ship "Archon"
+	fighter -32 -7 under left
+	fighter -22 20 under left
+	fighter -15 46 under left
+	fighter 15 46 under right
+	fighter 22 20 under right
+	fighter 32 -7 under right

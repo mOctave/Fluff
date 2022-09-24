@@ -22,3 +22,6 @@ shipyard "wandererPlugins"
 shipyard "quargPlugins"
 	"Quarg Hydra"
 	"Quarg Oriole"
+
+shipyard "drakPlugins"
+	"Sarkic"
