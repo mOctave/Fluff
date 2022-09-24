@@ -1,14 +1,5 @@
-#	Quarter Sestor self destruct changes
+#	Quarter Mereti self destruct chances
 
-ship "Far Lek 14"
-	attributes
-		"self destruct" .3
-ship "Far Osk 27"
-	attributes
-		"self destruct" .3
-ship "Met Par Tek 53"
-	attributes
-		"self destruct" .325
 ship "Model 8"
 	attributes
 		"self destruct" .3
@@ -30,6 +21,18 @@ ship "Model 256"
 ship "Model 512"
 	attributes
 		"self destruct" .4
+
+#	Quarter Sestor self destruct chances
+
+ship "Far Lek 14"
+	attributes
+		"self destruct" .3
+ship "Far Osk 27"
+	attributes
+		"self destruct" .3
+ship "Met Par Tek 53"
+	attributes
+		"self destruct" .325
 ship "Tek Far 71 - Lek"
 	attributes
 		"self destruct" .35
