@@ -1,3 +1,16 @@
+#	Outfitters
+
+outfitter "Ammo North"
+	"Storage Lockers"
+	"Tool Rack"
+outfitter "Ammo South"
+	"Shipwright Gear"
+	"Tool Rack"
+outfitter "Pirate Outfits"
+	"Tool Rack"
+
+#	Shipyards
+
 shipyard "Betelgeuse Advanced"
 	"Colossus"
 	"Flivver (Racing)"
