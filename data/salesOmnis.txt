@@ -1,4 +1,5 @@
 shipyard "humanPlugins"
+	"Bennu"
 	"Colossus"
 	"Flivver (Racing)"
 outfitter "humanPlugins"
