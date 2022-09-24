@@ -1,14 +1,3 @@
-#	Add Hydra to large Quarg fleets
-
-fleet "Large Quarg"
-	variant 2
-		"Quarg Hydra"
-	variant 3
-		"Quarg Hydra"
-		"Quarg Wardragon"
-	variant 5
-		"Quarg Hydra" 2
-
 #	Add KIV 637 and KIV 711 heavy warships to large Sestor fleets
 
 fleet "Large Kor Sestor"
@@ -86,14 +75,3 @@ fleet "Small Kor Mereti"
 	add variant 24
 		"Model 8 (Disruptor)"
 		"Model 8 (Minelayer)" 4
-
-#	Add Oriole to regular Quarg fleets
-
-fleet "Quarg"
-	variant 2
-		"Quarg Oriole"
-	variant 3
-		"Quarg Wardragon"
-		"Quarg Oriole"
-	variant 5
-		"Quarg Oriole" 2

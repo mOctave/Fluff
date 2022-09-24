@@ -1,0 +1,21 @@
+#	Add Hydra to large Quarg fleets
+
+fleet "Large Quarg"
+	variant 2
+		"Quarg Hydra"
+	variant 3
+		"Quarg Hydra"
+		"Quarg Wardragon"
+	variant 5
+		"Quarg Hydra" 2
+
+#	Add Oriole to regular Quarg fleets
+
+fleet "Quarg"
+	variant 2
+		"Quarg Oriole"
+	variant 3
+		"Quarg Wardragon"
+		"Quarg Oriole"
+	variant 5
+		"Quarg Oriole" 2
