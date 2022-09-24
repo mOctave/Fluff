@@ -14,6 +14,11 @@ outfitter "korathPlugins"
 	"Shield Disruptor Gun"
 	"Vector Engine (Reality Class)"
 
+outfitter "wandererPlugins"
+	"Type 0 Radiant Engine"
+shipyard "wandererPlugins"
+	"Scud"
+
 shipyard "quargPlugins"
 	"Quarg Hydra"
 	"Quarg Oriole"
