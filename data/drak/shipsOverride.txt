@@ -1,3 +1,5 @@
+#	Allow Archons to carry half a dozen Sarkics
+
 ship "Archon"
 	fighter -32 -7 under left
 	fighter -22 20 under left
