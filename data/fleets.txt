@@ -1,0 +1,183 @@
+fleet "Large Quarg"
+	variant 5
+		"Quarg Hydra" 2
+	variant 3
+		"Quarg Hydra"
+		"Quarg Wardragon"
+	variant 2
+		"Quarg Hydra"
+fleet "quarg protectionist"
+	government "Quarg"
+	personality
+		forbearing
+		opportunistic
+	variant 2
+		"Quarg Hydra"
+		"Quarg Wardragon" 2
+	variant 2
+		"Quarg Hydra" 2
+		"Quarg Wardragon"
+	variant
+		"Quarg Hydra" 3
+		"Quarg Wardragon"
+	variant
+		"Quarg Hydra" 2
+		"Quarg Wardragon" 2
+	variant
+		"Quarg Hydra"
+		"Quarg Wardragon" 3
+fleet "Quarg"
+	variant 5
+		"Quarg Oriole" 2
+	variant 3
+		"Quarg Oriole"
+		"Quarg Wardragon"
+	variant 2
+		"Quarg Oriole"
+#	Override
+fleet "Wanderer Flycatchers"
+	add variant
+		"Scud" 2
+	add variant
+		"Scud" 3
+	add variant
+		"Scud" 4
+	add variant
+		"Scud" 5
+fleet "Korath Ember Waste Large Raid"
+	add variant 15
+		"Kar'hane" 2
+		"Palavret (Ember)"
+	add variant 3
+		"Kar'hane" 2
+		"Palavret (Ember Blaze)"
+	add variant 3
+		"Kar'hane" 2
+		"Palavret (Ember Shunt)"
+	add variant 2
+		"Kar'hane" 4
+		"Rano'erek"
+	add variant 2
+		"Kar'hane" 4
+		"Rano'erek (Shunt)"
+	add variant 1
+		"Kar'hane" 10
+		"Palavret (Ember)" 3
+		"Ra'gru Ik 618 (Ember)"
+		"Rano'erek (Heaver)"
+	add variant 1
+		"Kar'hane" 19
+		"Palavret (Ember)" 3
+		"Ra'at Ik 621"
+		"Rano'erek (Heaver)"
+	add variant 1
+		"Kar'hane" 9
+		"Lor'kas Ik 577 (Ember)"
+		"Palavret (Ember Blaze)" 2
+		"Palavret (Ember Shunt)"
+fleet "Korath Ember Waste Raid"
+	add variant 15
+		"Kar'hane" 2
+		"Palavret (Ember)"
+	add variant 3
+		"Kar'hane" 2
+		"Palavret (Ember Blaze)"
+	add variant 3
+		"Kar'hane" 2
+		"Palavret (Ember Shunt)"
+	add variant 2
+		"Kar'hane" 4
+		"Rano'erek"
+	add variant 2
+		"Kar'hane" 4
+		"Rano'erek (Shunt)"
+fleet "Korath Large Raid"
+	add variant 5
+		"Kar'hane" 4
+		"Palavret" 2
+	add variant 5
+		"Kar'hane" 4
+		"Palavret (Blaze)" 2
+	add variant 2
+		"Kar'hane" 6
+		"Palavret (Blaze)"
+		"Rano'erek"
+fleet "Korath Raid"
+	add variant 4 
+		"Kar'hane" 2
+		"Palavret"
+	add variant 1
+		"Kar'hane" 2
+		"Palavret (Blaze)"
+fleet "Large Kor Mereti"
+	add variant 15
+		"Model 8 (Disruptor)" 3
+		"Model 8 (Minelayer)" 2
+	add variant 6
+		"Model 64" 2
+		"Model 8 (Disruptor)" 5
+	add variant 5
+		"Model 128" 2
+		"Model 8 (Disruptor)" 2
+		"Model 8 (Minelayer)" 3
+	add variant 3
+		"Model 256"
+		"Model 8 (Minelayer)" 2
+	add variant 3
+		"Model 128"
+		"Model 32" 3
+		"Model 8 (Disruptor)" 3
+	add variant 2
+		"Model 128"
+		"Model 16" 4
+		"Model 256"
+		"Model 32" 2
+		"Model 512"
+		"Model 64" 3
+		"Model 8 (Minelayer)" 2
+fleet "Small Kor Mereti"
+	add variant 24
+		"Model 8 (Disruptor)"
+		"Model 8 (Minelayer)" 4
+	add variant 8
+		"Model 64" 3
+		"Model 8 (Disruptor)" 2
+	add variant 7
+		"Model 128"
+		"Model 8 (Disruptor)" 2
+		"Model 8 (Minelayer)" 3
+	add variant 4
+		"Model 256"
+		"Model 8 (Minelayer)" 3
+	add variant 4
+		"Model 128"
+		"Model 32" 2
+		"Model 8 (Disruptor)" 5
+fleet "Large Kor Sestor"
+	add variant 16
+		"Far Lek 14" 10
+		"Far Osk 27" 8
+		"Kar Ik Vot 637"
+		"Tek Far 71 - Lek (Close Quarters)"
+		"Tek Far 78 - Osk (Close Quarters)"
+	add variant 12
+		"Far Lek 14" 10
+		"Far Osk 27" 2
+		"Kar Ik Vot 637"
+		"Met Par Tek 53" 3
+		"Tek Far 71 - Lek"
+	add variant 8
+		"Kar Ik Vot 349"
+		"Kar Ik Vot 711"
+	add variant 5
+		"Far Lek 14" 10
+		"Far Osk 27" 8
+		"Kar Ik Vot 711"
+		"Met Par Tek 53" 3
+		"Tek Far 71 - Lek (Close Quarters)"
+		"Tek Far 78 - Osk (Close Quarters)"
+	add variant 4
+		"Far Lek 14" 18
+		"Far Osk 27" 14
+		"Kar Ik Vot 711"
+		"Tek Far 109" 2

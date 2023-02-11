@@ -1,5 +1,3 @@
-#	Outfitters
-
 outfitter "Ammo North"
 	"Storage Lockers"
 	"Tool Rack"
@@ -8,9 +6,6 @@ outfitter "Ammo South"
 	"Tool Rack"
 outfitter "Pirate Outfits"
 	"Tool Rack"
-
-#	Shipyards
-
 shipyard "Betelgeuse Advanced"
 	"Colossus"
 	"Flivver (Racing)"

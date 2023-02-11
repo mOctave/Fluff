@@ -1,8 +1,0 @@
-#	Re-categorize vanilla Quarg ships to reflect their roles
-
-ship "Quarg Skylark"
-	attributes
-		category "Utility"
-ship "Quarg Wardragon"
-	attributes
-		category "Light Warship"
