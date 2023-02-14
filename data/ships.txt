@@ -94,20 +94,20 @@ ship "Colossus"
 		"X1200 Ion Steering"
 	sprite "ship/colossus"
 	thumbnail "thumbnail/colossus"
-	turret -22 -13 "Heavy Anti-Missile Turret"
-	turret -22 149 "Anti-Missile Turret"
-	turret -22 68
-	turret -31 -126 "Proton Turret"
 	turret -46.5 -45 "Anti-Missile Turret"
-	turret -46.5 116.5 "Proton Turret"
-	turret -46.5 35.5 "Heavy Laser Turret"
-	turret 22 -13 "Heavy Anti-Missile Turret"
-	turret 22 149 "Anti-Missile Turret"
-	turret 22 68
-	turret 31 -126 "Proton Turret"
 	turret 46.5 -45 "Anti-Missile Turret"
-	turret 46.5 116.5 "Proton Turret"
+	turret -22 -13 "Heavy Anti-Missile Turret"
+	turret 22 -13 "Heavy Anti-Missile Turret"
+	turret -31 -126 "Proton Turret"
+	turret 31 -126 "Proton Turret"
+	turret -46.5 35.5 "Heavy Laser Turret"
 	turret 46.5 35.5 "Heavy Laser Turret"
+	turret -22 68
+	turret 22 68
+	turret -46.5 116.5 "Proton Turret"
+	turret 46.5 116.5 "Proton Turret"
+	turret -22 149 "Anti-Missile Turret"
+	turret 22 149 "Anti-Missile Turret"
 #	Interceptor
 ship "Model 8" "Model 8 (disruptor)"
 	gun 9 -36 "Shield Disruptor Gun"
@@ -181,8 +181,8 @@ ship "Quarg Oriole"
 		"Quarg Skylance"
 	sprite "ship/quargOriole"
 	thumbnail "thumbnail/quargOriole"
-	turret -18 37.5 "Quarg Anti-Missile"
 	turret 0 -1 "Quarg Skylance"
+	turret -18 37.5 "Quarg Anti-Missile"
 	turret 18 37.5 "Quarg Anti-Missile"
 #	Medium Warship
 ship "Firebird" "Bennu"
@@ -215,8 +215,8 @@ ship "Firebird" "Bennu"
 	explode "small explosion" 36
 	explode "tiny explosion" 18
 	gun -30.5 -28.5 "Inhibitor Cannon"
-	gun -43 -12 "Plasma Repeater"
 	gun 30.5 -28.5 "Inhibitor Cannon"
+	gun -43 -12 "Plasma Repeater"
 	gun 43 -12 "Plasma Repeater"
 	outfits
 		"Bullfrog Anti-Missile" 2
@@ -290,11 +290,11 @@ ship "Quarg Hydra"
 		"Quarg Skylance" 4
 	sprite "ship/quargHydra"
 	thumbnail "thumbnail/quargHydra"
-	turret -27 64.5 "Quarg Anti-Missile"
-	turret -66.5 73 "Quarg Skylance"
-	turret 0 -17.5 "Quarg Skylance"
 	turret 0 -35.5 "Quarg Skylance"
+	turret 0 -17.5 "Quarg Skylance"
+	turret -27 64.5 "Quarg Anti-Missile"
 	turret 27 64.5 "Quarg Anti-Missile"
+	turret -66.5 73 "Quarg Skylance"
 	turret 66.5 73 "Quarg Skylance"
 #	Heavy Warship
 ship "Kar Ik Vot 637"
@@ -343,8 +343,8 @@ ship "Kar Ik Vot 637"
 		back
 		over
 	gun -11 -323 "Korath Detainer"
-	gun -22 -272 "Piercer Missile Launcher"
 	gun 11 -323 "Korath Detainer"
+	gun -22 -272 "Piercer Missile Launcher"
 	gun 22 -272 "Piercer Missile Launcher"
 	outfits
 		"Control Transceiver"
@@ -363,12 +363,12 @@ ship "Kar Ik Vot 637"
 	sprite "ship/karIkVot637"
 	thumbnail "thumbnail/karIkVot637"
 	turret -50 -261 "Thermal Repeater Turret"
-	turret -52 -238 "Thermal Repeater Turret"
-	turret -54 -210 "Thermal Repeater Turret"
-	turret -57 -181 "Thermal Repeater Turret"
 	turret 50 -261 "Thermal Repeater Turret"
+	turret -52 -238 "Thermal Repeater Turret"
 	turret 52 -238 "Thermal Repeater Turret"
+	turret -54 -210 "Thermal Repeater Turret"
 	turret 54 -210 "Thermal Repeater Turret"
+	turret -57 -181 "Thermal Repeater Turret"
 	turret 57 -181 "Thermal Repeater Turret"
 ship "Kar Ik Vot 711"
 	"final explode" "final explosion large"
@@ -425,22 +425,22 @@ ship "Kar Ik Vot 711"
 		"Warder Anti-Missile" 4
 	sprite "ship/karIkVot711"
 	thumbnail "thumbnail/karIkVot711"
-	turret -102.5 201 "Warder Anti-Missile"
-	turret -123.5 201 "Thermal Repeater Turret"
-	turret -50.5 -128.5 "Warder Anti-Missile"
 	turret -50.5 -259.5 "Thermal Repeater Turret"
+	turret 50.5 -259.5 "Thermal Repeater Turret"
 	turret -52 -235.5 "Thermal Repeater Turret"
-	turret -53 -152.5
+	turret 52 -235.5 "Thermal Repeater Turret"
 	turret -54.5 -207.5 "Thermal Repeater Turret"
+	turret 54.5 -207.5 "Thermal Repeater Turret"
 	turret -55 -178.5 "Banisher Grav-Turret"
+	turret 55 -178.5 "Banisher Grav-Turret"
+	turret -53 -152.5
+	turret 53 -152.5
+	turret -50.5 -128.5 "Warder Anti-Missile"
+	turret 50.5 -128.5 "Warder Anti-Missile"
+	turret -123.5 201 "Thermal Repeater Turret"
+	turret -102.5 201 "Warder Anti-Missile"
 	turret 102.5 201 "Warder Anti-Missile"
 	turret 123.5 201 "Thermal Repeater Turret"
-	turret 50.5 -128.5 "Warder Anti-Missile"
-	turret 50.5 -259.5 "Thermal Repeater Turret"
-	turret 52 -235.5 "Thermal Repeater Turret"
-	turret 53 -152.5
-	turret 54.5 -207.5 "Thermal Repeater Turret"
-	turret 55 -178.5 "Banisher Grav-Turret"
 #	Fighter
 ship "Kar'hane"
 	attributes
@@ -558,13 +558,13 @@ ship "Scud"
 	thumbnail "thumbnail/scud"
 #	Override
 ship "Archon"
-	fighter -32 -7
+	fighter -15 46
 		left
 		under
 	fighter -22 20
 		left
 		under
-	fighter -15 46
+	fighter -32 -7
 		left
 		under
 	fighter 15 46
