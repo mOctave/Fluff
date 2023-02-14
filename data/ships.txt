@@ -110,8 +110,8 @@ ship "Colossus"
 	turret 46.5 35.5 "Heavy Laser Turret"
 #	Interceptor
 ship "Model 8" "Model 8 (disruptor)"
-	gun 9 -36 "Korath Disruptor Gun"
-	gun -11 -15 "Korath Disruptor Gun"
+	gun 9 -36 "Shield Disruptor Gun"
+	gun -11 -15 "Shield Disruptor Gun"
 	outfits
 		"Hyperdrive"
 		"Plasma Core"
@@ -122,13 +122,13 @@ ship "Model 8" "Model 8 (disruptor)"
 		"Systems Core (Small)"
 		"Thruster (Comet Class)"
 ship "Model 8" "Model 8 (minelayer)"
-	gun 9 -36 "Korath Minelayer"
+	gun 9 -36 "Cluster Mine Layer"
 	outfits
+		"Cluster Mine Layer"
+		"Cluster Mine Rack" 3
+		"Cluster Mine" 44
 		"Generator (Furnace Class)"
 		"Hyperdrive"
-		"Korath Mine Rack" 3
-		"Korath Mine" 44
-		"Korath Minelayer"
 		"Reasoning Node"
 		"Steering (Lunar Class)"
 		"Systems Core (Small)"
@@ -343,33 +343,33 @@ ship "Kar Ik Vot 637"
 		back
 		over
 	gun -11 -323 "Korath Detainer"
-	gun -22 -272 "Korath Piercer Launcher"
+	gun -22 -272 "Piercer Missile Launcher"
 	gun 11 -323 "Korath Detainer"
-	gun 22 -272 "Korath Piercer Launcher"
+	gun 22 -272 "Piercer Missile Launcher"
 	outfits
 		"Control Transceiver"
 		"Double Plasma Core"
 		"Hyperdrive"
 		"Korath Detainer" 2
-		"Korath Piercer Launcher" 2
-		"Korath Piercer" 62
-		"Korath Repeater Turret" 8
 		"Large Heat Shunt" 5
+		"Piercer Missile Launcher" 2
+		"Piercer Missile" 62
 		"Small Heat Shunt"
 		"Systems Core (Large)"
 		"Systems Core (Small)"
+		"Thermal Repeater Turret" 8
 		"Triple Plasma Core"
 		"Vector Engine (Reality Class)"
 	sprite "ship/karIkVot637"
 	thumbnail "thumbnail/karIkVot637"
-	turret -50 -261 "Korath Repeater Turret"
-	turret -52 -238 "Korath Repeater Turret"
-	turret -54 -210 "Korath Repeater Turret"
-	turret -57 -181 "Korath Repeater Turret"
-	turret 50 -261 "Korath Repeater Turret"
-	turret 52 -238 "Korath Repeater Turret"
-	turret 54 -210 "Korath Repeater Turret"
-	turret 57 -181 "Korath Repeater Turret"
+	turret -50 -261 "Thermal Repeater Turret"
+	turret -52 -238 "Thermal Repeater Turret"
+	turret -54 -210 "Thermal Repeater Turret"
+	turret -57 -181 "Thermal Repeater Turret"
+	turret 50 -261 "Thermal Repeater Turret"
+	turret 52 -238 "Thermal Repeater Turret"
+	turret 54 -210 "Thermal Repeater Turret"
+	turret 57 -181 "Thermal Repeater Turret"
 ship "Kar Ik Vot 711"
 	"final explode" "final explosion large"
 	attributes
@@ -404,43 +404,43 @@ ship "Kar Ik Vot 711"
 	explode "medium explosion" 90
 	explode "small explosion" 70
 	explode "tiny explosion" 140
-	gun -11.5 -319.5 "Korath Piercer Launcher"
-	gun 11.5 -319.5 "Korath Piercer Launcher"
+	gun -11.5 -319.5 "Piercer Missile Launcher"
+	gun 11.5 -319.5 "Piercer Missile Launcher"
 	outfits
+		"Banisher Grav-Turret" 2
 		"Control Transceiver" 2
 		"Hyperdrive"
-		"Korath Banisher" 2
-		"Korath Piercer Launcher" 2
-		"Korath Piercer Rack" 3
-		"Korath Piercer" 110
-		"Korath Repeater Turret" 8
-		"Korath Warder" 4
 		"Large Heat Shunt" 7
 		"Outfits Expansion"
+		"Piercer Missile Launcher" 2
+		"Piercer Missile Rack" 3
+		"Piercer Missile" 110
 		"Small Heat Shunt" 2
 		"Systems Core (Large)"
 		"Systems Core (Medium)"
+		"Thermal Repeater Turret" 8
 		"Thruster (Lunar Class)"
 		"Triple Plasma Core" 2
 		"Vector Engine (Reality Class)"
+		"Warder Anti-Missile" 4
 	sprite "ship/karIkVot711"
 	thumbnail "thumbnail/karIkVot711"
-	turret -102.5 201 "Korath Warder"
-	turret -123.5 201 "Korath Repeater Turret"
-	turret -50.5 -128.5 "Korath Warder"
-	turret -50.5 -259.5 "Korath Repeater Turret"
-	turret -52 -235.5 "Korath Repeater Turret"
+	turret -102.5 201 "Warder Anti-Missile"
+	turret -123.5 201 "Thermal Repeater Turret"
+	turret -50.5 -128.5 "Warder Anti-Missile"
+	turret -50.5 -259.5 "Thermal Repeater Turret"
+	turret -52 -235.5 "Thermal Repeater Turret"
 	turret -53 -152.5
-	turret -54.5 -207.5 "Korath Repeater Turret"
-	turret -55 -178.5 "Korath Banisher"
-	turret 102.5 201 "Korath Warder"
-	turret 123.5 201 "Korath Repeater Turret"
-	turret 50.5 -128.5 "Korath Warder"
-	turret 50.5 -259.5 "Korath Repeater Turret"
-	turret 52 -235.5 "Korath Repeater Turret"
+	turret -54.5 -207.5 "Thermal Repeater Turret"
+	turret -55 -178.5 "Banisher Grav-Turret"
+	turret 102.5 201 "Warder Anti-Missile"
+	turret 123.5 201 "Thermal Repeater Turret"
+	turret 50.5 -128.5 "Warder Anti-Missile"
+	turret 50.5 -259.5 "Thermal Repeater Turret"
+	turret 52 -235.5 "Thermal Repeater Turret"
 	turret 53 -152.5
-	turret 54.5 -207.5 "Korath Repeater Turret"
-	turret 55 -178.5 "Korath Banisher"
+	turret 54.5 -207.5 "Thermal Repeater Turret"
+	turret 55 -178.5 "Banisher Grav-Turret"
 #	Fighter
 ship "Kar'hane"
 	attributes
@@ -465,13 +465,13 @@ ship "Kar'hane"
 	engine -7 37
 	engine 7 37
 	explode "tiny explosion" 30
-	gun -4 -37 "Korath Fire-Lance"
-	gun 4 -37 "Korath Fire-Lance"
+	gun -4 -37 "Fire-Lance"
+	gun 4 -37 "Fire-Lance"
 	outfits
+		"Fire-Lance" 2
 		"Generator (Furnace Class)"
-		"Korath Fire-Lance" 2
-		"Korath Repeater Rifle" 2
 		"Steering (Asteroid Class)"
+		"Thermal Repeater Rifle" 2
 		"Thruster (Asteroid Class)"
 	sprite "ship/karhane"
 	thumbnail "thumbnail/karhane"
