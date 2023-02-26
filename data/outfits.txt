@@ -30,6 +30,7 @@ outfit "Storage Lockers"
 	cost 13600
 	description "This is a small, self-contained room, that provides a safe and convenient way to store, retrieve, and professionally take care of various specialised tools."
 	mass 13
+	plural "Storage Lockers"
 	thumbnail "outfit/storageLockers"
 outfit "Tool Rack"
 	"outfit space" -3

@@ -70,6 +70,7 @@ ship "Colossus"
 	leak "big leak" 50 30
 	leak "flame" 30 80
 	leak "leak" 30 50
+	plural "Colossuses"
 	outfits
 		"A370 Atomic Thruster"
 		"Anti-Missile Turret" 4
