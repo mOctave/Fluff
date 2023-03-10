@@ -72,7 +72,6 @@ fleet "Korath Ember Waste Large Raid"
 		"Rano'erek (Heaver)"
 	add variant 1
 		"Kar'hane" 9
-		"Lor'kas Ik 577 (Ember)"
 		"Palavret (Ember Blaze)" 2
 		"Palavret (Ember Shunt)"
 fleet "Korath Ember Waste Raid"
@@ -111,22 +110,22 @@ fleet "Korath Raid"
 		"Palavret (Blaze)"
 fleet "Large Kor Mereti"
 	add variant 15
-		"Model 8 (Disruptor)" 3
-		"Model 8 (Minelayer)" 2
+		"Model 8 (disruptor)" 3
+		"Model 8 (minelayer)" 2
 	add variant 6
 		"Model 64" 2
-		"Model 8 (Disruptor)" 5
+		"Model 8 (disruptor)" 5
 	add variant 5
 		"Model 128" 2
-		"Model 8 (Disruptor)" 2
-		"Model 8 (Minelayer)" 3
+		"Model 8 (disruptor)" 2
+		"Model 8 (minelayer)" 3
 	add variant 3
 		"Model 256"
-		"Model 8 (Minelayer)" 2
+		"Model 8 (minelayer)" 2
 	add variant 3
 		"Model 128"
 		"Model 32" 3
-		"Model 8 (Disruptor)" 3
+		"Model 8 (disruptor)" 3
 	add variant 2
 		"Model 128"
 		"Model 16" 4
@@ -134,25 +133,25 @@ fleet "Large Kor Mereti"
 		"Model 32" 2
 		"Model 512"
 		"Model 64" 3
-		"Model 8 (Minelayer)" 2
+		"Model 8 (minelayer)" 2
 fleet "Small Kor Mereti"
 	add variant 24
-		"Model 8 (Disruptor)"
-		"Model 8 (Minelayer)" 4
+		"Model 8 (disruptor)"
+		"Model 8 (minelayer)" 4
 	add variant 8
 		"Model 64" 3
-		"Model 8 (Disruptor)" 2
+		"Model 8 (disruptor)" 2
 	add variant 7
 		"Model 128"
-		"Model 8 (Disruptor)" 2
-		"Model 8 (Minelayer)" 3
+		"Model 8 (disruptor)" 2
+		"Model 8 (minelayer)" 3
 	add variant 4
 		"Model 256"
-		"Model 8 (Minelayer)" 3
+		"Model 8 (minelayer)" 3
 	add variant 4
 		"Model 128"
 		"Model 32" 2
-		"Model 8 (Disruptor)" 5
+		"Model 8 (disruptor)" 5
 fleet "Large Kor Sestor"
 	add variant 16
 		"Far Lek 14" 10
