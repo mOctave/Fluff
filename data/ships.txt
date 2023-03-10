@@ -306,7 +306,7 @@ ship "Kar Ik Vot 637"
 		"fuel capacity" 600
 		"heat dissipation" .45
 		"outfit space" 1239
-		"self destruct" .45
+		"self destruct" .9
 		"weapon capacity" 527
 		automaton 1
 		category "Heavy Warship"
@@ -379,7 +379,7 @@ ship "Kar Ik Vot 711"
 		"fuel capacity" 700
 		"heat dissipation" .4
 		"outfit space" 1461
-		"self destruct" .55
+		"self destruct" .9
 		"weapon capacity" 527
 		automaton 1
 		category "Heavy Warship"
@@ -577,48 +577,6 @@ ship "Archon"
 	fighter 32 -7
 		right
 		under
-ship "Far Lek 14"
-	attributes
-		"self destruct" .3
-ship "Far Osk 27"
-	attributes
-		"self destruct" .3
-ship "Kar Ik Vot 349"
-	attributes
-		"self destruct" .4
-ship "Met Par Tek 53"
-	attributes
-		"self destruct" .325
-ship "Model 128"
-	attributes
-		"self destruct" .385
-ship "Model 16"
-	attributes
-		"self destruct" .325
-ship "Model 256"
-	attributes
-		"self destruct" .395
-ship "Model 32"
-	attributes
-		"self destruct" .35
-ship "Model 512"
-	attributes
-		"self destruct" .4
-ship "Model 64"
-	attributes
-		"self destruct" .37
-ship "Model 8"
-	attributes
-		"self destruct" .3
-ship "Tek Far 109"
-	attributes
-		"self destruct" .35
-ship "Tek Far 71 - Lek"
-	attributes
-		"self destruct" .35
-ship "Tek Far 78 - Osk"
-	attributes
-		"self destruct" .35
 ship "Quarg Skylark"
 	attributes
 		category "Utility"
