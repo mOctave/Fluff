@@ -22,24 +22,6 @@ outfit "Shield Disruptor Gun"
 		sprite "projectile/disruptor"
 			"frame rate" 15
 		velocity 480
-#	Systems
-outfit "Storage Lockers"
-	"outfit space" -13
-	"tool storage" 5
-	category "Systems"
-	cost 13600
-	description "This is a small, self-contained room, that provides a safe and convenient way to store, retrieve, and professionally take care of various specialised tools."
-	mass 13
-	plural "Storage Lockers"
-	thumbnail "outfit/storageLockers"
-outfit "Tool Rack"
-	"outfit space" -3
-	"tool storage" 1
-	category "Systems"
-	cost 13600
-	description "These racks are designed to safely store, retrieve, and recharge various specialised tools."
-	mass 3
-	thumbnail "outfit/toolRack"
 #	Engines
 outfit "Type 0 Radiant Engine"
 	"engine capacity" -14
@@ -93,9 +75,10 @@ outfit "Knockout Gas"
 outfit "Shipwright Gear"
 	"hull energy" .06
 	"hull repair rate" .04
+	"operating cost" 50
 	"required crew" 1
-	"tool storage" -1
 	category "Special"
 	cost 8400
 	description "As luck has it, many people offering their services as ship crew are actually skilled in some engineering background. With the right provisions they could be put to work reinforcing the hull of a ship under times of stress."
+	description "Specialists among the ships crew require higher wages, but offer services not covered by regular crew members."
 	thumbnail "outfit/shipwrightGear"
