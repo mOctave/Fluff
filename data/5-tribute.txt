@@ -1,0 +1,12 @@
+planet "Alta Hai"
+	tribute 22000
+		fleet "quargProtectionist" 12
+		threshold 8000
+planet "Kuwaru Efreti"
+	tribute 17000
+		fleet "quargProtectionist" 10
+		threshold 8000
+planet "Lagrange"
+	tribute 18000
+		fleet "quargProtectionist" 10
+		threshold 8000
