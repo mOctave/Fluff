@@ -1,3 +1,4 @@
+#	Override
 planet "Alta Hai"
 	tribute 22000
 		fleet "quargProtectionist" 12
