@@ -11,3 +11,10 @@ planet "Lagrange"
 	tribute 18000
 		fleet "quargProtectionist" 10
 		threshold 8000
+#	Wormhole
+planet "Pug Wormhole"
+	description ``
+wormhole "Pug Wormhole"
+	link "Deneb" "Queri"
+	link "Queri" "Deneb"
+	mappable
