@@ -1,4 +1,8 @@
 #	Override
+system "Omnis"
+	add object "Fluff "
+		distance 2400
+		sprite "asteroid/yottrite/spin"
 system "Queri"
 	belt 1500
 	government "Uninhabited"

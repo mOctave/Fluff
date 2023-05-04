@@ -1,3 +1,13 @@
+#	Omnis
+planet "Everything "
+	outfitter "fluff"
+	shipyard "fluff"
+planet "Fluff "
+	bribe 0
+	description ""
+	outfitter "fluff"
+	shipyard "fluff"
+	spaceport ""
 #	Override
 planet "Alta Hai"
 	tribute 22000
