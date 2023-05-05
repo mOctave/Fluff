@@ -1,0 +1,65 @@
+#	Systems
+#		Override
+system "Omnis"
+	add object "Fluff "
+		distance 2400
+		sprite "asteroid/yottrite/spin"
+#	Objects
+#		New
+planet "Everything "
+	outfitter "fluff"
+	shipyard "fluff"
+#	Objects
+#		Override
+planet "Fluff "
+	bribe 0
+	description ""
+	outfitter "fluff"
+	shipyard "fluff"
+	spaceport ""
+#	Sales
+#		Plugin
+shipyard "fluff"
+	"Bennu" #
+	"Colossus"
+	"Flivver (Racing)" #
+	"Quarg Oriole"
+	"Quarg Hydra"
+	"Kar Ik Vot 637"
+	"Kar Ik Vot 711"
+	"Kar'hane"
+	"Sarkic"
+	"Scud"
+outfitter "fluff"
+	"Shield Disruptor Gun"
+	"Type 0 Radiant Engine"
+	"Vector Engine (Reality Class)"
+	"Knockout Gas"
+	"Shipwright Gear"
+#	Sales
+#		Factions
+shipyard "drak"
+	"Sarkic"
+shipyard "human"
+	"Bennu" #
+	"Colossus"
+	"Flivver (Racing)" #
+outfitter "human"
+	"Knockout Gas"
+	"Shipwright Gear"
+shipyard "korath"
+	"Kar Ik Vot 637"
+	"Kar Ik Vot 711"
+	"Kar'hane"
+	"Model 8 (disruptor)" #
+	"Model 8 (minelayer)" #
+outfitter "korath"
+	"Shield Disruptor Gun"
+	"Vector Engine (Reality Class)"
+shipyard "quarg"
+	"Quarg Hydra"
+	"Quarg Oriole"
+shipyard "wanderer"
+	"Scud"
+outfitter "wanderer"
+	"Type 0 Radiant Engine"

@@ -1,8 +1,8 @@
-#	Override
-system "Omnis"
-	add object "Fluff "
-		distance 2400
-		sprite "asteroid/yottrite/spin"
+#	Disable
+disable mission
+	"Ringworld Debris"
+#	Systems
+#		Override
 system "Queri"
 	belt 1500
 	government "Uninhabited"
@@ -70,3 +70,30 @@ system "Queri"
 		period 349.82
 		sprite "planet/ringworld left"
 			scale .5
+#	Objects
+#		Override
+planet "Pug Wormhole"
+	description ``
+wormhole "Pug Wormhole"
+	link "Deneb" "Queri"
+	link "Queri" "Deneb"
+	mappable
+#	Missions
+#		New
+mission "Wormhole to Queri"
+	invisible
+	landing
+	on offer
+		event "wormhole to queri"
+	to offer
+		or
+			has "FW Pug 5B: done"
+			has "FWC Pug 5B: done"
+#	Missions
+#		Events
+event "wormhole to queri"
+	system "Queri"
+		add object "Pug Wormhole"
+			distance 2320
+			period 1788
+			sprite "planet/wormhole"

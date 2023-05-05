@@ -1,0 +1,71 @@
+#	Ships
+#		New
+ship "Sarkic"
+	"never disabled"
+	attributes
+		"energy capacity" 1
+		"hull repair rate" 24
+		"required crew" 1
+		"reverse thrust" 80
+		bunks 1
+		category "Fighter"
+		cloak .06
+		cost 100000000
+		drag 6
+		hull 940000
+		inscrutable 1
+		mass 400
+		thrust 80
+		turn 1800
+	description "The enigmatic Drak possess bio-mechanical vessels capable of maintaining order throughout the galaxy. No one knows just how many Drak vessels are out amongst the stars, nor do they understand the connection between the fabled Archons and the lesser known Sarkics."
+	explode "small explosion" 10
+	explode "tiny explosion" 16
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	gun 0 -27 "Mouthparts?"
+	noun "entity"
+	outfits
+		"Mouthparts?" 24
+	sprite "ship/sarkic"
+#	Ships
+#		Override
+ship "Archon"
+	fighter -15 46
+		left
+		under
+	fighter -22 20
+		left
+		under
+	fighter -32 -7
+		left
+		under
+	fighter 15 46
+		right
+		under
+	fighter 22 20
+		right
+		under
+	fighter 32 -7
+		right
+		under
