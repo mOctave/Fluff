@@ -84,7 +84,6 @@ ship "Kar Ik Vot 637"
 		"fuel capacity" 600
 		"heat dissipation" .45
 		"outfit space" 1239
-		"self destruct" .9
 		"weapon capacity" 527
 		automaton 1
 		category "Heavy Warship"
@@ -149,6 +148,7 @@ ship "Kar Ik Vot 637"
 	turret 54 -210 "Thermal Repeater Turret"
 	turret -57 -181 "Thermal Repeater Turret"
 	turret 57 -181 "Thermal Repeater Turret"
+	uncapturable
 ship "Kar Ik Vot 711"
 	"final explode" "final explosion large"
 	attributes
@@ -157,7 +157,6 @@ ship "Kar Ik Vot 711"
 		"fuel capacity" 700
 		"heat dissipation" .4
 		"outfit space" 1461
-		"self destruct" .9
 		"weapon capacity" 527
 		automaton 1
 		category "Heavy Warship"
@@ -220,6 +219,7 @@ ship "Kar Ik Vot 711"
 	turret -102.5 201 "Warder Anti-Missile"
 	turret 102.5 201 "Warder Anti-Missile"
 	turret 123.5 201 "Thermal Repeater Turret"
+	uncapturable
 #	Ships
 #		Variants
 ship "Model 8" "Model 8 (disruptor)"
@@ -246,6 +246,64 @@ ship "Model 8" "Model 8 (minelayer)"
 		"Steering (Lunar Class)"
 		"Systems Core (Small)"
 		"Thruster (Comet Class)"
+#	Ships
+#		Override
+ship "Far Lek 14"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Far Osk 27"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Kar Ik Vot 349"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Met Par Tek 53"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Model 128"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Model 16"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Model 256"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Model 32"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Model 512"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Model 64"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Model 8"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Tek Far 109"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Tek Far 71 - Lek"
+	attributes
+		"self destruct" 0
+	uncapturable
+ship "Tek Far 78 - Osk"
+	attributes
+		"self destruct" 0
+	uncapturable
 #	Fleets
 #		Override
 fleet "Korath Ember Waste Large Raid"
