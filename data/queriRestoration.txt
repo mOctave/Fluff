@@ -1,4 +1,4 @@
-#	Disable
+#	Disabled
 disable mission
 	"Ringworld Debris"
 #	Systems

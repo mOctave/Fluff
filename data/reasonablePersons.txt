@@ -1,3 +1,4 @@
+#	Disabled
 disable person
 	"Brick"
 	"Captain Nate"
@@ -9,3 +10,89 @@ disable person
 	"Prototype B3-CC4"
 	"Rais Iris XVIII"
 	"Zitchas"
+	#"Cap'n Pester"
+	#"Marauding Max"
+	#"Subsidurial"
+	#"Tranquility"
+#	Governments
+government "Independent (Community)"
+	color "governments: Independent"
+	"penalty for"
+		assist 0
+		disable 0
+		board 0
+		capture 0
+		destroy 0
+		atrocity 0
+#	Community Designs
+person "Sofia the Dreamy"
+	government "Independent (Community)"
+	personality
+		"disables"
+		"heroic"
+		"timid"
+	ship "Albatross" "Sofia the Dreamy"
+		outfits
+			"Fire-Lance" 7
+			"Fuel Module" 2
+			"Jump Drive"
+			"Liquid Sodium Cooler"
+			"Outfits Expansion" 3
+			"Point Defense Turret"
+			"Quantum Keystone"
+			"Small Battery Module"
+			"Steering (Planetary Class)"
+			"Systems Core (Large)"
+			"Systems Core (Medium)"
+			"Thruster (Planetary Class)"
+			"Triple Plasma Core"
+		gun 0 -190 "Fire-Lance"
+			under
+		gun -9 -177 "Fire-Lance"
+			under
+		gun 9 -177 "Fire-Lance"
+			under
+		gun -14 -162 "Fire-Lance"
+			under
+		gun 14 -162 "Fire-Lance"
+			under
+		gun -18 -144 "Fire-Lance"
+			under
+		gun 18 -144 "Fire-Lance"
+			under
+		turret 0 77 "Point Defense Turret"
+			over
+	system
+		government "Uninhabited"
+person "Grace Gambit"
+	government "Independent (Community)"
+	personality
+		"disables"
+		"heroic"
+		"timid"
+	ship "Pug Arfecta" "Grace Gambit"
+		outfits
+			"Cloaking Device"
+			"Crystal Capacitor"
+			"Enforcer Confrontation Gear" 45
+			"Fuel Module" 3
+			"Jump Drive"
+			"Liquid Sodium Cooler"
+			"Quantum Keystone"
+			"Quarg Skylance" 5
+			"Research Laboratory"
+			"Tear of Skade"
+			"Vector Engine (Reality Class)"
+			"Void Rifle"
+		turret -62 -17.5 "Quarg Skylance"
+			over
+		turret 62 -17.5 "Quarg Skylance"
+			over
+		turret 0 76.5 "Quarg Skylance"
+			over
+		turret -84 114.5 "Quarg Skylance"
+			over
+		turret 84 114.5 "Quarg Skylance"
+			over
+	system
+		government "Uninhabited"
