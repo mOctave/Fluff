@@ -7,11 +7,11 @@ disable person
 	"MasterOfGrey"
 	"Michael Zahniser"
 	"Power of the People"
-	"Prototype B3-CC4"
 	"Rais Iris XVIII"
 	"Zitchas"
 	#"Cap'n Pester"
 	#"Marauding Max"
+	#"Prototype B3-CC4"
 	#"Subsidurial"
 	#"Tranquility"
 #	Governments

@@ -48,24 +48,3 @@ ship "Sarkic"
 	outfits
 		"Mouthparts?" 24
 	sprite "ship/sarkic"
-#	Ships
-#		Override
-ship "Archon"
-	fighter -15 46
-		left
-		under
-	fighter -22 20
-		left
-		under
-	fighter -32 -7
-		left
-		under
-	fighter 15 46
-		right
-		under
-	fighter 22 20
-		right
-		under
-	fighter 32 -7
-		right
-		under
