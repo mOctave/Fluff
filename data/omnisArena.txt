@@ -1,0 +1,123 @@
+#	Faction
+system "Fluff "
+	add object "Kar'hane  "
+		distance 900
+		offset 30
+		sprite "ship/karhane"
+	add object "Kar Ik Vot 637  "
+		distance 900
+		offset 60
+		sprite "ship/karIkVot637"
+	add object "Kar Ik Vot 711  "
+		distance 900
+		offset 90
+		sprite "ship/karIkVot711"
+	add object "Colossus  "
+		distance 900
+		offset 330
+		sprite "ship/colossus"
+	add object "Quarg Oriole  "
+		distance 900
+		offset 360
+		sprite "ship/quargOriole"
+	add object "Quarg Hydra  "
+		distance 1500
+		offset 18
+		sprite "ship/quargHydra"
+	add object "Sarkic  "
+		distance 1500
+		offset 54
+		sprite "ship/sarkic"
+	add object "Scud  "
+		distance 1500
+		offset 72
+		sprite "ship/scud"
+#		Ships
+planet "Kar'hane  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kar'hane "
+		threshold 0
+fleet "Kar'hane "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kar'hane"
+planet "Kar Ik Vot 637  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kar Ik Vot 637 "
+		threshold 0
+fleet "Kar Ik Vot 637 "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kar Ik Vot 637"
+planet "Kar Ik Vot 711  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Kar Ik Vot 711 "
+		threshold 0
+fleet "Kar Ik Vot 711 "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Kar Ik Vot 711"
+planet "Colossus  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Colossus "
+		threshold 0
+fleet "Colossus "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Colossus"
+planet "Quarg Oriole  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Oriole "
+		threshold 0
+fleet "Quarg Oriole "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Oriole"
+planet "Quarg Hydra  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Quarg Hydra "
+		threshold 0
+fleet "Quarg Hydra "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Quarg Hydra"
+planet "Sarkic  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Sarkic "
+		threshold 0
+fleet "Sarkic "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Sarkic"
+planet "Scud  "
+	bribe 0
+	government "Arena"
+	tribute 1
+		fleet "Scud "
+		threshold 0
+fleet "Scud "
+	government "Arena"
+	personality "heroic"
+	variant
+		"Scud"

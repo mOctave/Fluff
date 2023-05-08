@@ -1,17 +1,19 @@
-#	Systems
-#		Override
-system "Omnis"
-	add object "Fluff "
-		distance 2400
-		sprite "asteroid/yottrite/spin"
-#	Objects
+#	Map
 #		New
+system "Fluff "
+	"jump range" 3000
+	government "Plugin"
+	pos 1000 -10000
+	add object "  Fluff"
+		sprite "asteroid/yottrite/spin"
+#	Map
+#		Override
 planet "Everything "
 	outfitter "fluff"
 	shipyard "fluff"
 #	Objects
 #		Override
-planet "Fluff "
+planet "  Fluff"
 	bribe 0
 	description ""
 	outfitter "fluff"
