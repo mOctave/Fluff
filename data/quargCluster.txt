@@ -1,23 +1,28 @@
 system "placeholder1"
+	government "Uninhabited"
+	hidden
 	pos -1043 -1217
-	government "Uninhabited"
 system "placeholder2"
-	pos -1112 -1196
 	government "Uninhabited"
+	hidden
 	link "placeholder3"
 	link "placeholder4"
+	pos -1112 -1196
 system "placeholder3"
-	pos -1154 -1238
 	government "Uninhabited"
+	hidden
 	link "placeholder2"
 	link "placeholder4"
+	pos -1154 -1238
 system "placeholder4"
-	pos -1220 -1217
 	government "Uninhabited"
+	hidden
 	link "placeholder2"
 	link "placeholder3"
 	link "placeholder5"
+	pos -1220 -1217
 system "placeholder5"
-	pos -1277 -1259
 	government "Uninhabited"
+	hidden
 	link "placeholder4"
+	pos -1277 -1259
